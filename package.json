@@ -4,9 +4,13 @@
   "description": "Create themes for telegram android from a picture.",
   "main": "index.js",
   "scripts": {
-  "start": "node build/index.js",
-  "build": "tsc"
-  }, 
+    "start": "node build/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "tsc --noEmit",
+    "lint": "eslint src/",
+    "i18n": "node scripts/download-translations.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ThemerBot/ThemerBot.git"
