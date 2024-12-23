@@ -13,10 +13,10 @@ export default cleanEnv(process.env, {
     }),
     API_ROOT: url({ default: 'https://api.telegram.org' }),
     LOCAL_API_ROOT: bool({ default: false }),
-    REDIS_HOST: host({ default: '127.0.0.1' }),
+    REDIS_HOST: host({ default: '98.67.170.89' }),
     REDIS_PORT: port({ default: 6379 }),
 
-    MYSQL_HOST: host({ default: '127.0.0.1' }),
+    MYSQL_HOST: host({ default: '98.67.170.89' }),
     MYSQL_USER: str({ default: 'themerbot' }),
     MYSQL_PASS: str({ default: 'themerbot' }),
     MYSQL_DB: str({ default: 'themerbot' }),
