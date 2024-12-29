@@ -16,7 +16,7 @@ export default cleanEnv(process.env, {
     REDIS_HOST: host({ default: '98.67.170.89' }),
     REDIS_PORT: port({ default: 6379 }),
 
-    MYSQL_HOST: host({ default: '98.67.170.89' }),
+    MYSQL_HOST: host({ default: '0.0.0.0' }),
     MYSQL_USER: str({ default: 'themerbot' }),
     MYSQL_PASS: str({ default: 'themerbot' }),
     MYSQL_DB: str({ default: 'themerbot' }),
